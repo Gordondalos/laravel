@@ -20,6 +20,6 @@ Route::get('/', ['as'=> 'posts', 'uses'=>'PostController@index']);
 
 
 
-Auth::routes();
 
+Auth::routes();
 Route::get('/home', 'HomeController@index');
